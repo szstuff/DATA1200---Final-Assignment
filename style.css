@@ -7,13 +7,13 @@ header{
 
 
 body{
-    background-color: white;
+    background-color: red;
 
 }
 
 .meny > nav > li {
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 2    rem;
     text-decoration: none;
     
 }
@@ -23,11 +23,11 @@ body{
 
 footer{
 
-   background-color: rgb(251, 223, 13;
+   background-color: rgb(251, 223, 13);
    
 }
 
 #OMLogo {
-    width: 100px;
+    width: 10px;
     margin: 10px;
 }
