@@ -11,8 +11,8 @@ body{
 
 }
 
-.meny > nav > lu {
-    
+.meny > nav > li {
+    color: whitesmoke;
 }
 
 
@@ -21,8 +21,7 @@ body{
 footer{
 
    background-color: rgb(251, 223, 13;
-   padding-top: -10px;
-
+   
 }
 
 #OMLogo {
