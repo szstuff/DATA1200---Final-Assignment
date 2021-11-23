@@ -18,7 +18,9 @@ body{
     list-style-type: none;
     text-decoration-color: whitesmoke;
 }
-
+a:visited{
+    text-decoration-color: whitesmoke;
+}
 
 
 
@@ -26,6 +28,7 @@ footer{
 
     padding-top: 10px;
     padding-bottom: -10px;
+    position: relative;
 
    background-color: rgb(251, 223, 13);
    
@@ -34,4 +37,8 @@ footer{
 #OMLogo {
     width: 100px;
     margin: 10px;
+}
+
+.sidebarIcons {
+    width: 50px;
 }
