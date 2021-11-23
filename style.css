@@ -28,6 +28,11 @@ body{
     position: fixed;
 }
 
+.content {
+    width: 40%;
+    margin: 0px ;
+}
+
 a:visited{
     text-decoration-color: whitesmoke;
 }
