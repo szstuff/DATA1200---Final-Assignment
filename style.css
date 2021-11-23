@@ -2,7 +2,7 @@ header{
     background-color: rgb(251, 223, 13);
     height: 100px;
     width: 100%;
-    position: fixed;
+    position:absolute;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -12,6 +12,7 @@ header{
 
 body{
     background-color:black;
+    background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(OsloMET-EuroSign-skilt-med-lys-skilt-uten-lys-folie-2.jpg);
 
 }
 
@@ -19,7 +20,7 @@ body{
     background-color: gray;
     width: 130px;
     text-align: center;
-    border: 2px solid orange;
+    border: 2px solid gray;
     display: block;
     overflow: hidden;
     margin-left: -10px;
