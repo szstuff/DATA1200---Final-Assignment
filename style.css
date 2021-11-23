@@ -11,14 +11,17 @@ body{
 
 }
 
-.meny > nav > ul {
-    color: rgb(251, 223, 13);
+.meny {
+    background-color: gray;
     width: 10%;
+    height: 100%;
     text-align: center;
-    border: 10px solid orange;
-    display: inline;
+    border: 2px solid orange;
+    display: block;
     overflow: hidden;
+    margin-left: -10px;
 }
+
 a:visited{
     text-decoration-color: whitesmoke;
 }
@@ -41,8 +44,15 @@ footer{
 }
 
 .sidebarIcons {
+    width: 75px;
+    display: block;
+    margin: 75px 0px 75px 50px ; /* top right bottom left */
+    transition: 0.2s;
+}
+
+.sidebarIcons:hover {
     width: 100px;
     display: block;
-    margin: 20px;
-    margin-bottom: 75px;
+    margin: 50px 0px 50px 30px;
+    background-color: rgba(20, 20, 256, 0.1);
 }
