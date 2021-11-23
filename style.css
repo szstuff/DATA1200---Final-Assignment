@@ -1,13 +1,13 @@
 header{
-    background-color: yellow;
-    margin: 0%;
-
-}
+    background-color: rgb(251, 223, 13);
+    position: relative;
+    margin-top:-10px;
+    margin-left: -10px;
+    margin-right: -10px}
 
 
 body{
-    background-color: violet;
-    margin: 0%;
+    background-color: black;
 
 }
 
@@ -16,4 +16,9 @@ body{
 
 footer{
 
+}
+
+#OMLogo {
+    width: 100px;
+    margin: 10px;
 }
