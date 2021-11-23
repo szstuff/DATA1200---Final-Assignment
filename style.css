@@ -20,7 +20,7 @@ body{
     background-color: gray;
     width: 130px;
     text-align: center;
-    border: 2px solid gray;
+    border: 10px solid rgb(251, 223, 13);
     display: block;
     overflow: hidden;
     margin-left: -10px;
@@ -35,8 +35,10 @@ a:visited{
 
 footer{
     height: 50px;
+    width: 90%;
+    margin: 0 auto 0 auto;
     padding-top: 10px;
-    padding-bottom: -10px;
+    padding-bottom: -10px; 
     position: relative;
 
    background-color: rgb(251, 223, 13);
