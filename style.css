@@ -7,21 +7,25 @@ header{
 
 
 body{
-    background-color: red;
+    background-color:pink;
 
 }
 
-.meny > nav > li {
+.meny > nav > ul {
     color: whitesmoke;
-    font-size: 2    rem;
+    font-size: 2rem;
     text-decoration: none;
-    
+    list-style-type: none;
+    text-decoration-color: whitesmoke;
 }
 
 
 
 
 footer{
+
+    padding-top: 10px;
+    padding-
 
    background-color: rgb(251, 223, 13);
    
