@@ -12,11 +12,12 @@ body{
 }
 
 .meny > nav > ul {
-    color: whitesmoke;
-    font-size: 2rem;
-    text-decoration: none;
-    list-style-type: none;
-    text-decoration-color: whitesmoke;
+    color: rgb(251, 223, 13);
+    width: 10%;
+    text-align: center;
+    border: 10px solid orange;
+    display: inline;
+    overflow: hidden;
 }
 a:visited{
     text-decoration-color: whitesmoke;
@@ -40,5 +41,8 @@ footer{
 }
 
 .sidebarIcons {
-    width: 50px;
+    width: 100px;
+    display: block;
+    margin: 20px;
+    margin-bottom: 75px;
 }
