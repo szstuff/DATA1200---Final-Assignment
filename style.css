@@ -16,6 +16,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 50px;
+    display: inline-block;
 }
 
 .meny {
@@ -42,7 +43,7 @@ footer{
     margin: 0 auto 0 auto;
     padding-top: 10px;
     padding-bottom: -10px; 
-    position: relative;
+    
 
    background-color: rgb(251, 223, 13);
    
@@ -69,7 +70,7 @@ footer{
 }
 
 .headline {
-    display: inline;
+    display: inline-block;
     padding: 0;
     margin: 0;
     margin-left: 10%;
@@ -77,4 +78,18 @@ footer{
     font-size: 75px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 
+}
+.content{
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.13);
+    position:absolute;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 370px;
+    margin-top: -490px;
+    width: 45%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.4rem;
 }
