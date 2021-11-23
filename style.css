@@ -20,11 +20,12 @@ body{
     background-color: gray;
     width: 130px;
     text-align: center;
-    border: 10px solid rgb(251, 223, 13);
+    border: 5px solid rgb(251, 223, 13);
     display: block;
     overflow: hidden;
-    margin-left: -10px;
+    margin-left: -15px;
     padding-top: 150px;
+    position: fixed;
 }
 
 a:visited{
