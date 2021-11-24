@@ -1,0 +1,136 @@
+@media screen and (min-width: 720px) {
+
+    .content{
+        box-sizing: border-box;
+        background-color: rgba(245, 245, 245, 0.3);
+        border-radius: 50px 50px 0px 0px;
+        position:absolute;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-left: 20%;
+        margin-top: -490px;
+        width: 60%;
+        padding: 2rem;
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .meny {
+    
+        width: 130px;
+        text-align: center;
+        border:0px solid gray;
+        display: block;
+        overflow: hidden;
+        margin-left: -15px;
+        padding-top: 150px;
+        
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .content{
+        box-sizing: border-box;
+        background-color: rgba(245, 245, 245, 0.3);
+        border-radius: 50px 50px 0px 0px;
+        position:absolute;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-left: 15%;
+        margin-top: -490px;
+        width: 80%;
+        padding: 2rem;
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .meny {
+    
+        width: 130px;
+        text-align: center;
+        border:0px solid gray;
+        display: none;
+        overflow: hidden;
+        margin-left: -15px;
+        padding-top: 150px;
+        
+    }
+
+}
+
+
+header{
+    background-color: rgb(251, 223, 13);
+    height: 100px;
+    width: 100%;
+    position:absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 0px;
+    display: inline;
+}
+
+
+body{
+    background-color:black;
+    background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(OsloMET-EuroSign-skilt-med-lys-skilt-uten-lys-folie-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 50px;
+    display: inline-block;
+}
+
+
+
+a:visited{
+    text-decoration-color: whitesmoke;
+}
+
+
+
+footer{
+    height: 50px;
+    margin: 0 auto 0 auto;
+    margin-left: -10px;
+    padding-top: 50px;
+    padding-left: 0px;
+    width:100%;
+    background-color: rgb(251, 223, 13);
+    position: absolute;
+   
+}
+
+#OMLogo {
+    width: 100px;
+    margin: 10px;
+}
+
+.sidebarIcons {
+    width: 75px;
+    display: block;
+    margin: 0px 0px 75px 25px ; /* top right bottom left */
+    transition: 0.2s;
+}
+
+.sidebarIcons:hover {
+    width: 100px;
+    display: block;
+    margin: -10px 0px 60px 15px;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 256, 0.1);
+}
+
+.headline {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+    font-weight: 900;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+
+}
