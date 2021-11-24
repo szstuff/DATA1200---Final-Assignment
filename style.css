@@ -45,10 +45,8 @@ footer{
     padding-bottom: 100x; 
     padding-left: 1500px;
     padding-right: 1000px;
-    
-    
-
-   background-color: rgb(251, 223, 13);
+    background-color: rgb(251, 223, 13);
+    position: absolute;
    
 }
 
